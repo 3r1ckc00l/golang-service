@@ -16,4 +16,5 @@ $export PATH=＄GOPATH/bin:＄GOROOT/bin:＄PATH
 
 ```
 $go version
+$go run main.go
 ```
