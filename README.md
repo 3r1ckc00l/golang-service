@@ -16,4 +16,8 @@ $export PATH=＄GOPATH/bin:＄GOROOT/bin:＄PATH
 
 ```
 $go version
+$mkdir library-api
+$cd library-api
+$go mod init library-api
+$go run main.go
 ```
