@@ -21,3 +21,9 @@ $cd library-api
 $go mod init library-api
 $go run main.go
 ```
+
+# Auto run golang when there is code changes
+
+```
+$npx nodemon --exec "go run" ./main.go --signal SIGTERM
+```
